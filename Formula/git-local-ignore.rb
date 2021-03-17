@@ -1,8 +1,9 @@
 class GitLocalIgnore < Formula
   desc "Locally exclude files from being tracked by Git (without adding them to .gitignore)"
   homepage "https://github.com/vpukhanov/git-local-ignore"
-  url "https://github.com/vpukhanov/git-local-ignore/releases/download/0.1.0/git-local-ignore-mac-0.1.0.tar.gz"
-  sha256 "496a5c5b8ae0b3b61576244a3a8f80645025d5bafcc4500e25cb9f59b67dc5a8"
+
+  url "https://github.com/vpukhanov/git-local-ignore/releases/download/1.0.0/git-local-ignore-mac-1.0.0.tar.gz"
+  sha256 "d74322ec4e3cb64648ffdb7389b29880103ca65428b2a18b4717bb35a604600d"
   
   bottle :unneeded
   
