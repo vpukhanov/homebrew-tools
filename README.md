@@ -1,6 +1,10 @@
 # Vyacheslav Pukhanov's Tools
 
-## How do I install these formulae?
+## Available Formulae
+
+- [Glee](https://github.com/vpukhanov/glee) — CLI tool to manage Git's local exclude patterns
+
+## Installation
 
 `brew install vpukhanov/tools/<formula>`
 
@@ -12,7 +16,3 @@ Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`
 tap "vpukhanov/tools"
 brew "<formula>"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
