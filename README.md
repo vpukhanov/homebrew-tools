@@ -3,6 +3,7 @@
 ## Available Formulae
 
 - [Glee](https://github.com/vpukhanov/glee) — CLI tool to manage Git's local exclude patterns
+- [Cascade](https://github.com/vpukhanov/cascade) — CLI tool that applies a patch or a script across multiple Git repositories
 
 ## Available Casks
 
