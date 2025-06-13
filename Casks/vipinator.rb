@@ -1,12 +1,12 @@
 cask "vipinator" do
-  version "1.1"
-  sha256 "919e7be429299352457da948f4c9c0f91f58d3d13542fa62be54bfb41d1b1c77"
+  version "1.2"
+  sha256 "7ff6bff7eef790b0bac207c14c366c781ca35d8e42e54fa228e3d37c2453df0e"
 
-  url "https://github.com/vpukhanov/Vipinator/releases/download/v#{version}/Vipinator-#{version}.dmg"
+  url "https://github.com/vpukhanov/vipinator/releases/download/v#{version}/Vipinator-#{version}.dmg"
 
   name "Vipinator"
   desc "VPN management from your menu bar"
-  homepage "https://github.com/vpukhanov/Vipinator/"
+  homepage "https://github.com/vpukhanov/vipinator/"
 
   livecheck do
     url :url
