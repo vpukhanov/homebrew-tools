@@ -1,6 +1,6 @@
 cask "vipinator" do
-  version "1.3"
-  sha256 "d0829c3abf764131fee0dd9319241a789456a5bcc45f90a4ddd1f344594dd783"
+  version "1.4"
+  sha256 "cfa446a44808c1e6f0dabc3ab198e2c5d5f3998926c6c27bd379429e992714e9"
 
   url "https://github.com/vpukhanov/vipinator/releases/download/v#{version}/Vipinator-#{version}.dmg"
 
