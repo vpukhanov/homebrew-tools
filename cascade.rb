@@ -5,21 +5,21 @@
 class Cascade < Formula
   desc "CLI tool that applies a patch across multiple git repositories"
   homepage "https://github.com/vpukhanov/cascade"
-  version "1.3.0"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/vpukhanov/cascade/releases/download/v1.3.0/cascade_1.3.0_Darwin_x86_64.zip"
-      sha256 "b99bcddc15e078b61c0bf29ec201786b389b547819a89d83d7c574fce1f3e2bf"
+      url "https://github.com/vpukhanov/cascade/releases/download/v1.4.0/cascade_1.4.0_Darwin_x86_64.zip"
+      sha256 "3a289322b209ae21a334d7e670f490159176d40b08120e147cdffe02c70002d7"
 
       def install
         bin.install "cascade"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/vpukhanov/cascade/releases/download/v1.3.0/cascade_1.3.0_Darwin_arm64.zip"
-      sha256 "5e6f8765467fbab5950fced867e328eb588d85aab3f388bab5c231595f978d5d"
+      url "https://github.com/vpukhanov/cascade/releases/download/v1.4.0/cascade_1.4.0_Darwin_arm64.zip"
+      sha256 "8ddbf25fe05ada604a6f250a39d8c89c2c12fb8f3e8f04dc511c8c8077924be1"
 
       def install
         bin.install "cascade"
@@ -29,15 +29,15 @@ class Cascade < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/vpukhanov/cascade/releases/download/v1.3.0/cascade_1.3.0_Linux_x86_64.tar.gz"
-      sha256 "8bdce708bacb83e02f2cb73ceb8531dfabdf13acc9da49906938f78653099e8a"
+      url "https://github.com/vpukhanov/cascade/releases/download/v1.4.0/cascade_1.4.0_Linux_x86_64.tar.gz"
+      sha256 "38a5bdbea3adf1b1166c7b6cab4a8591fc5c4a6b16c3000100c2bb82874167f7"
       def install
         bin.install "cascade"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/vpukhanov/cascade/releases/download/v1.3.0/cascade_1.3.0_Linux_arm64.tar.gz"
-      sha256 "4d1e52e0f269946faa0a0568392afe9bb0bb0275b586cc553379c4e4ece252e9"
+      url "https://github.com/vpukhanov/cascade/releases/download/v1.4.0/cascade_1.4.0_Linux_arm64.tar.gz"
+      sha256 "4f6e19231b2db61528104063a3dde9c90121555e066235c4320301fd124d8eb1"
       def install
         bin.install "cascade"
       end
